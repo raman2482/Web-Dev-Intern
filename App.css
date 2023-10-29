@@ -1,0 +1,138 @@
+.App{
+  background-color: rgb(245, 245, 228);
+  height: 100vh;
+}
+
+.main{
+  position: relative;
+   margin-left: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.List{
+  display: flex;
+  width: 45%;
+}
+
+.List div{
+  margin: 10px  50px;
+  font-size: large;
+}
+
+.items{
+  margin-right: 40px;
+}
+
+.items button{
+   margin: 10px 10px;
+}
+
+.items .sign{
+  border: 0;
+  background-color: rgb(245, 245, 228);;
+  text-decoration: underline;
+  font-size: large;
+}
+
+.items .GotInTouch{
+  background-color: black;
+  color: white;
+   border-radius: 50px;
+   padding: 10px;
+   font-size: small;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.head h1{
+  margin: 0;
+  margin-top: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+}
+.text h2{
+  padding: 0;
+  color: rgb(108, 106, 106);
+  font-weight: 500;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
+
+.text-2{
+  margin-left: 40%;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.text-2 h3{
+  margin-right: 4em;
+  font-weight: 400;
+}
+
+.main-list{
+  display: flex;
+  margin-left: 25%;
+  margin-top: 30px;
+}
+.main-list div{
+   padding: 20px;
+   border-radius: 20px;
+   margin-right: 20px;
+}
+
+.main-list div h1{
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.item-1{
+  background-color: rgb(243, 243, 197);
+}
+.item-2{
+  background-color:rgb(249, 218, 223);
+}
+.item-3{
+  background-color:white;
+}
+.item-1 .discription{
+  margin-top: 70px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+   border-radius: 50px;
+   padding: 10px;
+   font-size: small;
+}
+.item-2 .discription{
+  margin-top: 50px;
+  margin-left: 40px;
+  background-color: black;
+  color: white;
+   border-radius: 50px;
+   padding: 10px;
+   font-size: small;
+}
+.item-3 .discription{
+  margin-top: 30px;
+  margin-left: 55px;
+  background-color: black;
+  color: white;
+   border-radius: 50px;
+   padding: 10px;
+   font-size: small;
+}
+
+.month{
+  font-size: 20px;
+}
